@@ -1,0 +1,62 @@
+.register {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  padding: 20px; /* Add padding to avoid touching the edges */
+  box-sizing: border-box; /* Ensure padding is included in height/width calculations */
+}
+
+.register__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px; /* Adjust this value to make the container smaller */
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: to add a subtle shadow */
+  margin: 0 20px; /* Add some horizontal margin */
+}
+
+.register__textBox {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc; /* Optional: to add a border */
+}
+
+.register__btn {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+  cursor: pointer; /* Optional: to change the cursor on hover */
+}
+
+.register__google {
+  background-color: #4285f4;
+}
+
+.register__google:hover {
+  background-color: #357ae8; /* Optional: to change the background color on hover */
+}
+
+.register div {
+  margin-top: 7px;
+}
+
+.register a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
