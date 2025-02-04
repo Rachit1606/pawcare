@@ -128,7 +128,7 @@ For build and running the application locally the project requires:
 - [Gautam Mundada](gautam.mundada@dal.ca) - Business Analyst
 - [Pooja Chauhan](pj425390@dal.ca) - Marketing Specialist
 - [Priyatam Somagattu](pr889078@dal.ca) - Product Manager
-- [Rachit Khanna](rc257785@dal.ca) - Data Analyst
+- [Rachit Khanna](rc257785@dal.ca) - Full Stack Developer
 
 # Installation
 ## Node
