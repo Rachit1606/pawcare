@@ -18,15 +18,6 @@ import {
 } from "firebase/firestore";
 import axios from 'axios';  // Import axios
 
-const firebaseConfig = {
-  apiKey: "AIzaSyBavZEWd7mU0Q_ZuC8zBXUM-OcI1B1tN6k",
-  authDomain: "pawcare-cd6a8.firebaseapp.com",
-  projectId: "pawcare-cd6a8",
-  storageBucket: "pawcare-cd6a8.appspot.com",
-  messagingSenderId: "68159895036",
-  appId: "1:68159895036:web:3a338454e17059671e2e79",
-  measurementId: "G-PHHG01P2D7"
-};
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
